@@ -36,7 +36,6 @@ Think of it as a dynamic **as-of ledger** that rewinds your business on demand.
 ---
 
 ## 📂 Repository Structure  
-*(This tree will display correctly on GitHub — fully formatted.)*
 
 ```
 invoice-time-travel-engine/
@@ -99,9 +98,7 @@ Invoices raised after the selected date can be automatically hidden, giving a tr
 ---
 
 ## 📊 Screenshots  
-(Place your images inside `/images` and reference them.)
-
-Example:  
+ 
 ![Time-Travel UI](./images/time-travel-demo.png)
 
 ---
