@@ -1,0 +1,7 @@
+Invoiced £ (As Of, per Invoice) =
+VAR AsOfDate = [As Of Date]
+RETURN
+CALCULATE (
+    SUM ( 'Invoice'[Total Amount] ),
+    'Invoice'[Invoice Date] <= AsOfDate
+)

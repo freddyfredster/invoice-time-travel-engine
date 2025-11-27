@@ -1,0 +1,11 @@
+Payment Status (As Of) =
+VAR Out  = [Outstanding £ (As Of, per Invoice)]
+VAR Paid = [Paid £ (As Of, per Invoice)]
+RETURN
+SWITCH (
+    TRUE (),
+    Out = 0,                 "Fully Paid",
+    Paid = 0 && Out > 0,     "Unpaid",
+    Paid > 0 && Out > 0,     "Part Paid",
+    BLANK ()
+)

@@ -1,0 +1,4 @@
+As Of Date =
+VAR d = SELECTEDVALUE ( AsOf[Date] )
+RETURN
+IF ( NOT ISBLANK ( d ), d, MAX ( AsOf[Date] ) )

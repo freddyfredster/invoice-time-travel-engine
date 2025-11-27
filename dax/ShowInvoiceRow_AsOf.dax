@@ -1,0 +1,5 @@
+Show Invoice Row (As Of) =
+VAR AsOfDate = [As Of Date]
+VAR InvDate  = SELECTEDVALUE ( 'Invoice'[Invoice Date] )
+RETURN
+IF ( NOT ISBLANK ( InvDate ) && InvDate <= AsOfDate, 1, 0 )

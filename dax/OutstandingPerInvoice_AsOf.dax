@@ -1,0 +1,5 @@
+Outstanding £ (As Of, per Invoice) =
+VAR Invoiced = [Invoiced £ (As Of, per Invoice)]
+VAR Paid     = [Paid £ (As Of, per Invoice)]
+RETURN
+MAX ( 0, Invoiced - Paid )

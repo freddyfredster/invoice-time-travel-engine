@@ -1,0 +1,5 @@
+Total Paid £ (As Of) =
+SUMX (
+    VALUES ( 'Invoice'[InvoiceID] ),
+    [Paid £ (As Of, per Invoice)]
+)
