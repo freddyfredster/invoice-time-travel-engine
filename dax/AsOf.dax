@@ -1,0 +1,26 @@
+AsOf = 
+VAR MinYear =
+    YEAR (
+        MINX (
+            ALL ( Invoice[InvoiceDate] ),
+            Invoice[InvoiceDate]
+        )
+    )
+VAR MaxYear =
+    YEAR (
+        MAXX (
+            ALL ( Invoice[InvoiceDate] ),
+            Invoice[InvoiceDate]
+        )
+    )
+RETURN
+ADDCOLUMNS (
+    CALENDAR (
+        DATE ( MinYear, 1, 1 ),
+        DATE ( MaxYear, 12, 31 )
+    ),
+    "Year",      YEAR ( [Date] ),
+    "Quarter",   "Q" & FORMAT ( [Date], "Q" ),
+    "Month",     FORMAT ( [Date], "MMM" ),
+    "MonthNum",  MONTH ( [Date] )
+)

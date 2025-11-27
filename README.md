@@ -51,7 +51,6 @@ invoice-time-travel-engine/
 │   ├── overview.md
 │   ├── how-it-works.md
 │   ├── formula-library.md
-│   ├── ui-designs.md
 │   └── business-use-cases.md
 │
 ├── /dax/
@@ -66,19 +65,22 @@ invoice-time-travel-engine/
 │   └── ShowInvoiceRow_AsOf.dax
 │
 ├── /powerquery/
-│   └── sample-data-generation.m
+│   └── invoice-data-generation.m
+│   └── payment-data-generation.m
 │
 ├── /images/
 │   ├── report-homepage.png
-│   ├── time-travel-demo.png
-│   └── diagrams/
-│        ├── logic-flow.png
-│        └── model-diagram.png
 │
 └── /scripts/
     └── export-measures.ps1
 
 ```
+---
+
+The core DAX logic is stored in the `/dax` folder, including:
+
+- `AsOfTable.dax` – creates the AsOf snapshot date table
+- Measures for invoiced, paid, outstanding, payment status, totals, and row visibility.
 
 ---
 
@@ -99,6 +101,15 @@ Only transactions **up to that date** are considered.
 
 ### 3️⃣ Dynamic Row Visibility  
 Invoices raised after the selected date can be automatically hidden, giving a true historical view.
+
+---
+
+## 📚 Documentation
+
+- [Overview](docs/overview.md)
+- [How it Works](docs/how-it-works.md)
+- [Formula Library (DAX)](docs/formula-library.md)
+- [Business Use Cases](docs/business-use-cases.md)
 
 ---
 
