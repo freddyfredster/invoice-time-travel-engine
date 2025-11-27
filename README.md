@@ -27,7 +27,7 @@ Think of it as a dynamic **as-of ledger** that rewinds your business on demand.
 
 ---
 
-## 🎥 Demo Report (Publish-to-Web)
+## 🎥 Demo Report
 👉 *Add your link here*
 
 ## 💾 Download the PBIX  
@@ -55,11 +55,15 @@ invoice-time-travel-engine/
 │   └── business-use-cases.md
 │
 ├── /dax/
-│   ├── outstanding_as_of_measure.dax
-│   ├── paid_as_of_measure.dax
-│   ├── invoiced_as_of_measure.dax
-│   ├── invoice_status_as_of.dax
-│   └── row_visibility_as_of.dax
+│   ├── AsOfDate.dax
+│   ├── InvoicedPerInvoice_AsOf.dax
+│   ├── PaidPerInvoice_AsOf.dax
+│   ├── OutstandingPerInvoice_AsOf.dax
+│   ├── PaymentStatus_AsOf.dax
+│   ├── TotalInvoiced_AsOf.dax
+│   ├── TotalPaid_AsOf.dax
+│   ├── TotalOutstanding_AsOf.dax
+│   └── ShowInvoiceRow_AsOf.dax
 │
 ├── /powerquery/
 │   └── sample-data-generation.m
@@ -73,6 +77,7 @@ invoice-time-travel-engine/
 │
 └── /scripts/
     └── export-measures.ps1
+
 ```
 
 ---
