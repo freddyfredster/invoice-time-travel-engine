@@ -28,10 +28,10 @@ Think of it as a dynamic **as-of ledger** that rewinds your business on demand.
 ---
 
 ## 🎥 Demo Report
-👉 *Add your link here*
+👉 [(https://app.powerbi.com/view?r=eyJrIjoiZjU5ZjFkNTgtN2NlYi00MTc2LWJlM2ItYzMzOTM5ZjAxNGRlIiwidCI6IjY3ODRkMTQ4LTlkNzktNDdjMy05YmM0LWQ5OWQwZDYyNTY4ZSJ9)]
 
 ## 💾 Download the PBIX  
-👉 *Add link or include PBIX inside the `/pbix` folder*
+👉 [Pbix File](pbix/TimeTravelEngine_Demo.pbix)
 
 ---
 
@@ -115,7 +115,7 @@ Invoices raised after the selected date can be automatically hidden, giving a tr
 
 ## 📊 Screenshots  
  
-![Time-Travel UI](./images/time-travel-demo.png)
+![Time-Travel UI](./images/TimeTravel_Report.png)
 
 ---
 
