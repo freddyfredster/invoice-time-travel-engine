@@ -28,7 +28,7 @@ Think of it as a dynamic **as-of ledger** that rewinds your business on demand.
 ---
 
 ## 🎥 Demo Report
-👉 [(https://app.powerbi.com/view?r=eyJrIjoiZjU5ZjFkNTgtN2NlYi00MTc2LWJlM2ItYzMzOTM5ZjAxNGRlIiwidCI6IjY3ODRkMTQ4LTlkNzktNDdjMy05YmM0LWQ5OWQwZDYyNTY4ZSJ9)]
+👉 [TimeTravelEngine Report Demo](https://app.powerbi.com/view?r=eyJrIjoiZjU5ZjFkNTgtN2NlYi00MTc2LWJlM2ItYzMzOTM5ZjAxNGRlIiwidCI6IjY3ODRkMTQ4LTlkNzktNDdjMy05YmM0LWQ5OWQwZDYyNTY4ZSJ9)
 
 ## 💾 Download the PBIX  
 👉 [Pbix File](pbix/TimeTravelEngine_Demo.pbix)
